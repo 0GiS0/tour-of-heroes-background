@@ -1,5 +1,9 @@
 {
     "version": "2.0",
+    "blobs":{
+        "maxDegreeOfParallelism": 4,
+        "poisonBlobThreshold": 2
+    },
     "logging": {
         "applicationInsights": {
             "samplingSettings": {
